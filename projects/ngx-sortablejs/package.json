@@ -9,7 +9,10 @@
     "sortable",
     "draggable"
   ],
-  "author": "sholva",
+  "author": {
+    "name": "Sholva Bai",
+    "email": "sholva.bai@gmail.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
