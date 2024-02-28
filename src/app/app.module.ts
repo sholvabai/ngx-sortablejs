@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { BsDropdownModule } from 'ngx-bootstrap';
 import { SortablejsModule } from 'ngx-sortablejs';
 import { AppComponent } from './app.component';
 import { ExamplesModule } from './examples/examples.module';
@@ -11,6 +10,7 @@ import { SortableFormArrayComponent } from './examples/sortable-form-array/sorta
 import { SortableWithOptionsComponent } from './examples/sortable-with-options/sortable-with-options.component';
 import { CrossComponentsMultipleListsComponent } from './test-cases/cross-components-multiple-lists/cross-components-multiple-lists.component';
 import { TestCasesModule } from './test-cases/test-cases.module';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 @NgModule({
   declarations: [
